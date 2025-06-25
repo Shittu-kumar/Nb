@@ -15,8 +15,8 @@ def is_enabled(value, default):
 
 
 SESSION = environ.get('SESSION', 'media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '20114039'))
+API_HASH = environ.get('API_HASH', '87297b8f3cc8fc9bbce591ad30da5896')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -29,7 +29,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df5266
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/f983d857f3ce40795e4b8.jpg'))
 FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/cShkPjcZ/x.jpg')).split() 
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()] 
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8172163893').split()] 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-100').split()]
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-100'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-100'))  
@@ -50,10 +50,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SilentXBotz_files')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MovieKaKeeda')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BHUMIHARBOTSS')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Thebhumihar')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/BHUMIHARBOTSS')
 
 AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "") # add multiple channels here, separated by single space
 AUTH_CHANNEL = [int(ch) for ch in AUTH_CHANNEL.strip().split()] if AUTH_CHANNEL else []
@@ -69,14 +69,14 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 
-SHORTENER_API = environ.get("SHORTENER_API", "")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
+SHORTENER_API = environ.get("SHORTENER_API", "f00b0fd585fe0bfca2bcfbd73e28fcea5dfdb963")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "adrinolinks.in")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "f00b0fd585fe0bfca2bcfbd73e28fcea5dfdb963")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "adrinolinks.in")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "f00b0fd585fe0bfca2bcfbd73e28fcea5dfdb963")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "adrinolinks.in")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
