@@ -197,7 +197,7 @@ Nᴀᴍᴇ - {}
 
 ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠɪᴄᴇ ᴜꜱɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ.  
 
-ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @SilentXBotz
+ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @Thebhumihar
 
 ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴀᴍᴏᴜɴᴛ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ ᴀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 👇.</b>
 """
@@ -241,7 +241,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>{file_name}\nUploaded By: <a herf="https://t.me/SilentXBotz">[SilentXBotz]</a></b>"""
+    CAPTION = """<b>{file_name}\nUploaded By: <a herf="https://t.me/Thebhumihar">[𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
@@ -321,4 +321,4 @@ Requested by : {message.from_user.mention}</b>"""
 
     PAGE_TXT = """ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ꜱᴏ ᴄᴜʀɪᴏᴜꜱ ⁉️"""    
    
-    SOURCE_TXT = """<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ :</b> 👇\nThis Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited."""
+    SOURCE_TXT = """<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ :</b> 👇\nSource code is private if you want contact Owner. """
